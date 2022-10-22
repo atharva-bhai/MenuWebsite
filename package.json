@@ -1,10 +1,6 @@
 {
   "name": "react-app",
-  "homepage": "https://atharva-bhai.github.io/MenuWebsite",
   "version": "0.1.0",
-  "engines": {
-    "node": "18.x"
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,8 +16,6 @@
     "zlib": "^1.0.5"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
